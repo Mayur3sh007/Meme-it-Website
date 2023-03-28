@@ -1,0 +1,151 @@
+*{
+	font-family:Montserrat;
+}
+
+body {
+	background-image: url("swastik.jpg");
+     }
+
+header{
+	text-align: center;
+	background-color: red;
+	color:rgb(0, 0, 0);
+	padding:1px;
+	font-size: xx-large;
+	border-radius: 0px;
+    font-style: oblique;
+	border: 3px solid rgba(4, 1, 17, 0.778);
+	
+}
+
+hr{
+	border:5px double darkslateblue;
+	width: 75%;
+	border-radius: 5px;
+}
+
+h1{
+	text-align:center;
+	background-color: red;
+	color:black;
+	padding:1px;
+	font-size: xx-large;
+	font-style: oblique;
+	border: 3px solid rgba(4, 1, 17, 0.778);
+}
+
+h1:hover{
+	color:white
+}
+
+h2{
+	text-align: center;
+	background-color: rgb(8, 249, 213);
+	color: blue;
+	margin-left: 500px;
+	margin-right: 500px;
+	border-radius: 50px;
+	border: 3px solid blue;
+}
+
+
+form{
+	text-align: center;
+	padding: 50px;
+	font-size:medium;
+	background-color: rgb(8, 249, 213);
+	margin-left: 300px;
+	margin-right: 300px;
+	border: 3px solid rgba(38, 0, 255, 0.778);
+	border-radius: 15px;
+}
+input{
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	padding:1px;
+	width:250px;
+}
+
+#submit{
+	background-color: rgb(77, 255, 0);
+	border: 3px solid  rgb(34, 0, 255);
+	color:rgb(34, 0, 255) ;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	width: 75px;
+}
+
+#submit:hover{
+	color: black;
+}
+
+#checkbox{
+	width:20px;
+}
+
+div{
+	padding:10px;
+	font-size: x-large;
+	background-color: red;
+	color:white;
+	margin-left:100px;
+	margin-right:100px;
+	border-radius: 30px;
+	font-style: italic;
+	text-align: center;
+	border: 5px solid rgba(2, 1, 13, 0.778);
+	
+}
+
+div:hover{
+	color: rgb(1, 255, 1);
+}
+
+img{
+	border-radius: 50%;
+	width:3%;
+}
+
+footer{
+	text-align: center;
+	background-color: aquamarine;
+	font-size: large;
+	border-radius: 0px;
+	border: 3px solid blue;
+}
+
+ul{
+	list-style: none;
+}
+
+li{
+	display:inline;
+	margin:100px;
+
+}
+
+li a{
+	text-decoration: none;
+	
+}
+
+li a:hover{
+	color:royalblue;
+}
+
+li img{
+	width:4%;
+	margin-top: 10px;
+}
+
+.generate{
+	font-size: xxx-large;
+	background-color: rgb(77, 255, 0);
+	text-align: center;
+	margin-left:450px;
+	margin-right:450px;
+	border-radius: 100px;
+	border: 10px solid  rgb(34, 0, 255);
+}
