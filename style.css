@@ -2,9 +2,6 @@
 	font-family:Montserrat;
 }
 
-body {
-	background-image: url("swastik.jpg");
-     }
 
 header{
 	text-align: center;
@@ -32,6 +29,7 @@ h1{
 	font-size: xx-large;
 	font-style: oblique;
 	border: 3px solid rgba(4, 1, 17, 0.778);
+	
 }
 
 h1:hover{
@@ -46,9 +44,29 @@ h2{
 	margin-right: 500px;
 	border-radius: 50px;
 	border: 3px solid blue;
+	
+	
 }
 
+div{
+	padding:10px;
+	font-size: x-large;
+	background-color: rgb(253, 0, 0);
+	color:white;
+	margin-left:100px;
+	margin-right:100px;
+	border-radius: 30px;
+	font-style: italic;
+	text-align: center;
+	border: 5px solid rgba(2, 1, 13, 0.778);
+	
+}
 
+div:hover{
+	color: rgb(1, 255, 1);
+	padding:8px 36px;
+}
+ 
 form{
 	text-align: center;
 	padding: 50px;
@@ -85,26 +103,10 @@ input{
 	width:20px;
 }
 
-div{
-	padding:10px;
-	font-size: x-large;
-	background-color: red;
-	color:white;
-	margin-left:100px;
-	margin-right:100px;
-	border-radius: 30px;
-	font-style: italic;
-	text-align: center;
-	border: 5px solid rgba(2, 1, 13, 0.778);
-	
-}
 
-div:hover{
-	color: rgb(1, 255, 1);
-}
 
 img{
-	border-radius: 50%;
+	border-radius: 0;
 	width:3%;
 }
 
@@ -140,12 +142,43 @@ li img{
 	margin-top: 10px;
 }
 
-.generate{
-	font-size: xxx-large;
-	background-color: rgb(77, 255, 0);
+
+
+.meme-generator {
+   
+    text-align: center;
+	background-color: aquamarine;
+
+  }
+  
+  .meme-generator img {
+    height: 500px;
+	width: 500px;
 	text-align: center;
-	margin-left:450px;
-	margin-right:450px;
-	border-radius: 100px;
-	border: 10px solid  rgb(34, 0, 255);
+    
+  }
+  
+  .meme-generator .generate-meme-btn {
+    padding: 8px 20px;
+    border: none;
+    border-left: 4px solid #ff0080;
+    border-right: 4px solid #ff0080;
+    margin: 24px 0;
+    font-size: 20px;
+    color: rgb(25, 0, 255);
+    background:  rgb(0, 255, 35);
+    cursor: pointer;
+    transition: all 400ms ease;
+  }
+  
+  .meme-generator .generate-meme-btn:hover {
+    padding: 8px 36px;
+    border-left: 8px solid #4e00c2;
+    border-right: 8px solid #4e00c2;
+    letter-spacing: 3px;
+  }
+  
+  .meme-generator .meme-author {
+    margin: 8px;
+	text-align: center;
 }
