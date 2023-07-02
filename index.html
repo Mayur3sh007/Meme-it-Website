@@ -10,6 +10,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,900;1,700&display=swap" rel="stylesheet">  
             <!-- Linking to CSS -->
   <link rel="stylesheet" type="text/css" href="style.css">
+            <!--Linking to Javascript-->
+  <script src="script.js"></script>
 </head>
 
 <body> 
@@ -23,21 +25,21 @@
        </ul>
   </nav>
  </header>
-<hr><br>
+<hr><br><br><br><br><br><br>
                    <!-- THIS IS THE LOGIN FORM -->
-                   <form>
+                   <form method="post">
                     <label>E-mail ID</label>
-                    <input type="email" name"mayureshc007@gmail.com" placeholder="Enter E-mail">
+                    <input type="email" name"Aemail" placeholder="Enter E-mail">
                     <br><br><br><br>
                      <label>Password</label>
-                    <input type="password" name"MayureshisRedkiller" placeholder="Enter Password">
+                    <input type="password" name"Apassword" placeholder="Enter Password">
                     <br><br><br><br>
                                   <!-- Used ID tag to try to seperately customize-->
                     <input id="submit" type="SUBMIT" name"">
                     <label>Remember me</label>
                     <input id="checkbox" type="checkbox" name"" >
                     
-                   </form>
+                   </form><br><br><br><br><br><br>
   
   
 
@@ -60,13 +62,21 @@
 <hr><br>
 
 <h1>&spades;Generate Your Random Memes Here &spades;</h1>
-<nav>
-  <ul class=" generate">  
-    <li><a href="#"> GENERATE </a></li>
-  </ul>  
 
-</nav>
+
 <br><br><br><br>
+
+
+<div class="meme-generator">
+  <button class="generate-meme-btn">Generate Meme</button>
+  <h2 class="meme-title">Loading...</h2>
+
+  <img src="" alt="" />
+  <div class="meme-author"></div>
+</div>
+
+<script src="main.js"></script>
+
 
 <footer>
   <p><a href="#">Copyright &copy; Meme-it 2020. All Rights Reserved</a></p>
